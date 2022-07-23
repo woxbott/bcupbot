@@ -29,10 +29,10 @@ exports.run = {
          rowId: `${isPrefix}menutype 6`,
          description: ``
       }]
-       let text = ' هو بوت مغربي يقدم لك خدمات مميزة يمكن ان تساعدك في دراستك وفي حياتك اليومية ♥ʙᴏʙɪᴢ ʙᴏᴛ\n\n'
+       let text = '  بوبيز بوت هو بوت مغربي يقدم لك خدمات مميزة يمكن ان تساعدك في دراستك وفي حياتك اليومية ♥\n\n'
       text += '◦ *❀DEVELOPER* : ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ\n'
       text += '◦ *❀FACEBOOK* : https://www.facebook.com/profile.php?id=100063533185520\n'
-      text += '◦ *❀INSTAGRAM* : https://www.instagram.com/noureddine_ouafy *(v2.2.0)*\n\n'
+      text += '◦ *❀INSTAGRAM* : https://www.instagram.com/noureddine_ouafy\n\n'
       text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
       await client.sendList(m.chat, '', text, '', 'أنقر هنا!', [{
          rows
