@@ -5,7 +5,7 @@ exports.run = {
       isPrefix
    }) => {
       let rows = [{
-         title: 'telecharegement',
+         title: 'التحميل من المواقع',
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }, {
