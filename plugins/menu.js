@@ -9,27 +9,27 @@ exports.run = {
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }, {
-         title: 'المجموعات',
+         title: 'اوامر صاحب البوت في المجموعات',
          rowId: `${isPrefix}menutype 2`,
-         description: ``
+         description: ` لا تستعمل هذه الاوامر`
       }, {
-         title: 'USER INFO',
+         title: 'معلومات عن المستعمل',
          rowId: `${isPrefix}menutype 3`,
          description: ``
       }, {
-         title: 'UTILITIES',
+         title: 'ميزات أخرى',
          rowId: `${isPrefix}menutype 4`,
          description: ``
       }, {
-         title: 'OWNER TOOLS',
+         title: 'أوامر خاصة ب صاحب البوت',
          rowId: `${isPrefix}menutype 5`,
          description: ``
       }, {
-         title: 'SPECIAL',
+         title: 'اوامر اضافية',
          rowId: `${isPrefix}menutype 6`,
          description: ``
       }]
-      await client.sendList(m.chat, '', global.db.setting.msg, '© neoxr-bot v2.2.0', 'Tap!', [{
+      await client.sendList(m.chat, '', global.db.setting.msg, 'ʙᴏʙɪᴢ ʙᴏᴛ', 'Tap!', [{
          rows
       }], m)
    },
