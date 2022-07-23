@@ -98,5 +98,5 @@ const submenu6 = prefix => {
    return `◦  ${prefix}botstat 
 ◦  ${prefix}tr للترجمة
 ◦  ${prefix}owner رقم صاحب البوت
-◦  ${prefix}premium` ♥
+◦  ${prefix}premium`
 }
