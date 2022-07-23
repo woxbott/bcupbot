@@ -22,10 +22,10 @@ exports.run = {
             } = await yta(args[0])
             if (!dl_link) return client.reply(m.chat, global.status.fail, m)
             let caption = `乂  *Y T - M P 3*\n\n`
-            caption += `	◦  *Title* : ${decode(title)}\n`
-            caption += `	◦  *Size* : ${filesizeF}\n`
-            caption += `	◦  *Duration* : ${duration}\n`
-            caption += `	◦  *Bitrate* : 128kbps\n\n`
+            caption += `	◦  *عنوان الفيديو* : ${decode(title)}\n`
+            caption += `	◦  *حجمه* : ${filesizeF}\n`
+            caption += `	◦  *مدته* : ${duration}\n`
+            caption += `	◦  *♥* : 128kbps\n\n`
             caption += global.footer
             let chSize = Func.sizeLimit(filesizeF, global.max_upload)
             if (chSize.oversize) return client.reply(m.chat, `💀 File size (${filesizeF}) exceeds the maximum limit, download it by yourself via this link : ${await (await scrap.shorten(dl_link)).data.url}`, m)
@@ -48,9 +48,9 @@ exports.run = {
             } = await ytv(args[0])
             if (!dl_link) return client.reply(m.chat, global.status.fail, m)
             let caption = `乂  *Y T - M P 4*\n\n`
-            caption += `	◦  *Title* : ${decode(title)}\n`
-            caption += `	◦  *Size* : ${filesizeF}\n`
-            caption += `	◦  *Duration* : ${duration}\n`
+            caption += `	◦  *العنوان* : ${decode(title)}\n`
+            caption += `	◦  *حجم الفيديو* : ${filesizeF}\n`
+            caption += `	◦  *مدته* : ${duration}\n`
             caption += `	◦  *Quality* : 480p\n\n`
             caption += global.footer
             let chSize = Func.sizeLimit(filesizeF, global.max_upload)
