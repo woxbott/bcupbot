@@ -78,7 +78,7 @@ module.exports = (m) => {
       if (!('chatbot' in setting)) setting.chatbot = true
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
-      if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'Noureddine_ouafy'
       if (!('sk_author' in setting)) setting.sk_author = 'ʙᴏʙɪᴢ ʙᴏᴛ'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
@@ -96,7 +96,7 @@ module.exports = (m) => {
          debug: false,
          error: [],
          pluginDisable: [],
-         sk_pack: 'Sticker',
+         sk_pack: 'Noureddine_Ouafy',
          sk_author: 'ʙᴏʙɪᴢ ʙᴏᴛ',
          self: false,
          mimic: [],
@@ -106,7 +106,7 @@ module.exports = (m) => {
          online: true,
          onlyprefix: '+',
          owners: ['6285887776722', '994408364923'],
-         msg: 'MERHBA BIK F ʙᴏʙɪᴢ ʙᴏᴛ.'     
+         msg: 'MERHBA BIK F ʙᴏʙɪᴢ ʙᴏᴛ'     
       }
    }
 }
