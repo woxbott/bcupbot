@@ -29,7 +29,12 @@ exports.run = {
          rowId: `${isPrefix}menutype 6`,
          description: ``
       }]
-      await client.sendList(m.chat, '', global.db.setting.msg, 'ʙᴏʙɪᴢ ʙᴏᴛ', 'Tap!', [{
+       let text = 'لي يتم إنشاء هذا البوت لاية اغراض تجارية ، بل لمساعدة الطلاب في دراستهم و إيصال المعلومة اليهم\n\n'
+      text += '◦ *DEVELOPER* : محمد بلا\n'
+      text += '◦ *🟣FACEBOOK* : https://www.facebook.com/Bella.lewox\n'
+      text += '◦ *🟣INSTAGRAM* : https://www.instagram.com/wox_bella *(v2.2.0)*\n\n'
+      text += 'If you find an error or want to upgrade premium plan contact the owner.'
+      await client.sendList(m.chat, '', text, '', 'Tap!', [{
          rows
       }], m)
    },
