@@ -5,11 +5,11 @@ exports.run = {
       isPrefix
    }) => {
       let rows = [{
-         title: 'التحميل من المواقع',
+         title: ': الـتحـميل مــن الـمـواقــع مثـال ',
          rowId: `${isPrefix}menutype 1`,
          description: `fb / youtube / tiktok / instagram / mediafire ...`
       }, {
-         title: 'قسم تحويل الملفات (ملصقات ..)',
+         title: 'قـسم تـحـويـل المـلـفـات (مــلصـقـات ..)',
          rowId: `${isPrefix}menutype 4`,
          description: `Sticker & video & music Converter ❄ `
       }, {
@@ -23,7 +23,7 @@ exports.run = {
       
       text += '◦ *❀INSTAGRAM* : https://www.instagram.com/noureddine_ouafy\n\n'
       
-      text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
+      text += ' اذا واجــهتك اي مشكلة في البــوت تـواصـل مع صـاحـب البوت ☺.'
       await client.sendList(m.chat, '', text, '', 'MENU أنقر هنا ليظهر لـك', [{
          rows
       }], m)
