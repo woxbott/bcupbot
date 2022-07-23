@@ -17,17 +17,17 @@ exports.run = {
 }
 
 const submenu1 = prefix => {
-   return `◦  ${prefix}fb   التحميل من الفيسبوك*
-◦  ${prefix}ig          *التحميل من الانستغرام*
-◦  ${prefix}mediafire   *التحميل من ميديافاير*
-◦  ${prefix}play            *تحميل الاغانـــي*
-◦  ${prefix}tiktok  *(التحميل من تيكتوك  (الفيديو*
-◦  ${prefix}tikmp3   *(التحميل من تيكتوك (الموسيقى*
-◦  ${prefix}twitter     *التحميل من تويتر*
-◦  ${prefix}video     *تحميل فيديوات يوتوب*
-◦  ${prefix}ytmp3   *فيديوات يوتوب بصيغة موسيقى*
-◦  ${prefix}ytmp4   *فيديوات يوتوب بصيغة فيديو*
-◦  ${prefix}yts     *البـــحث في اليوتوب*`
+   return `◦  ${prefix}fb       *التحميل من الفيسبوك*
+◦  ${prefix}ig                 *التحميل من الانستغرام*
+◦  ${prefix}mediafire         *التحميل من ميديافاير*
+◦  ${prefix}play                *تحميل الاغانـــي*
+◦  ${prefix}tiktok      *(التحميل من تيكتوك  (الفيديو*
+◦  ${prefix}tikmp3      *(التحميل من تيكتوك (الموسيقى*
+◦  ${prefix}twitter             *التحميل من تويتر*
+◦  ${prefix}video            *تحميل فيديوات يوتوب*
+◦  ${prefix}ytmp3      *فيديوات يوتوب بصيغة موسيقى*
+◦  ${prefix}ytmp4        *فيديوات يوتوب بصيغة فيديو*
+◦  ${prefix}yts                *البـــحث في اليوتوب*`
 }
 
 const submenu3 = prefix => {
