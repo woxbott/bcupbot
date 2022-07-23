@@ -56,16 +56,14 @@ const submenu3 = prefix => {
 }
 
 const submenu4 = prefix => {
-   return `◦  ${prefix}ava *mention or reply*
-◦  ${prefix}q *reply chat*
+   return `◦  ${prefix}ava  *قم بالاشارة للرسالة *
 ◦  ${prefix}run
-◦  ${prefix}response *url*
-◦  ${prefix}sticker *reply media*
-◦  ${prefix}swm *packname | author*
-◦  ${prefix}take *packname | author*
-◦  ${prefix}toimg *reply sticker*
-◦  ${prefix}tomp3 *reply video*
-◦  ${prefix}tovn *reply audio / video*`
+◦  ${prefix}sticker  *تحويل صورة لملصق*
+◦  ${prefix}swm  *وضع حقوق على الملصق*
+◦  ${prefix}take  *وضع حقوق على الملصق*
+◦  ${prefix}toimg  *تحويل ملصق لصورة*
+◦  ${prefix}tomp3  *تحويل فيديو لموسيقى*
+◦  ${prefix}tovn *تحويل موسيقى او فيديو لـأوديـــو*`
 }
 
 const submenu5 = prefix => {
