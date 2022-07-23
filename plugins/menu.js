@@ -19,22 +19,22 @@ exports.run = {
       }, {
          title: 'قسم تحويل الملفات (ملصقات ..)',
          rowId: `${isPrefix}menutype 4`,
-         description: `تحول الصور للملصقات مع عمل حقوق + تحويل الصور `
+         description: `sticker / video / audio converter `
       }, {
          title: 'أوامر خاصة ب صاحب البوت',
          rowId: `${isPrefix}menutype 5`,
-         description: ``
+         description: `CMD just For Owner`
       }, {
          title: 'اوامر اضافية',
          rowId: `${isPrefix}menutype 6`,
          description: ``
       }]
        let text = '  بوبيز بوت هو بوت مغربي يقدم لك خدمات مميزة يمكن ان تساعدك في دراستك وفي حياتك اليومية ♥\n\n'
-      text += '◦ *❀DEVELOPER* : ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ\n'
+     
       text += '◦ *❀FACEBOOK* : https://www.facebook.com/profile.php?id=100063533185520\n'
       text += '◦ *❀INSTAGRAM* : https://www.instagram.com/noureddine_ouafy\n\n'
       text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
-      await client.sendList(m.chat, '', text, '', ' MENU أنقر هنا هنا ليظهر لك!', [{
+      await client.sendList(m.chat, '', text, '', ' MENU أنقر هنا ليظهر لك!', [{
          rows
       }], m)
    },
