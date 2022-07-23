@@ -27,12 +27,12 @@ const submenu1 = prefix => {
 ◦  ${prefix}mediafire           *التحميل من ميديافاير*
 ◦  ${prefix}play                *تحميل الاغانـــي*
 ◦  ${prefix}tiktok     **
-◦  ${prefix}tikmp3     *TiTok   Link / رابط الفيديو*
-◦  ${prefix}twitter    *Twitter Link / رابط الفيديو*
-◦  ${prefix}video      *Youtube Link / رابط الفيديو*
-◦  ${prefix}ytmp3      *Youtube Link / رابط الفيديو*
-◦  ${prefix}ytmp4      *Youtube Link / رابط الفيديو*
-◦  ${prefix}yts        *Search on Youtube *`
+◦  ${prefix}tikmp3  *TiTok Link / رابط الفيديو*
+◦  ${prefix}twitter *Twit  Link / رابط الفيديو*
+◦  ${prefix}video   *YT    Link / رابط الفيديو*
+◦  ${prefix}ytmp3   *YT    Link / رابط الفيديو*
+◦  ${prefix}ytmp4   *YT    Link / رابط الفيديو*
+◦  ${prefix}yts     *Search on Youtube *`
 }
 
 const submenu3 = prefix => {
