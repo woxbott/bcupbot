@@ -17,9 +17,9 @@ exports.run = {
          rowId: `${isPrefix}menutype 3`,
          description: ``
       }, {
-         title: 'ميزات أخرى',
+         title: 'قسم تحويل الملفات (ملصقات ..)',
          rowId: `${isPrefix}menutype 4`,
-         description: ``
+         description: `تحول الصور للملصقات مع عمل حقوق + تحويل الصور `
       }, {
          title: 'أوامر خاصة ب صاحب البوت',
          rowId: `${isPrefix}menutype 5`,
@@ -34,7 +34,7 @@ exports.run = {
       text += '◦ *❀FACEBOOK* : https://www.facebook.com/profile.php?id=100063533185520\n'
       text += '◦ *❀INSTAGRAM* : https://www.instagram.com/noureddine_ouafy\n\n'
       text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
-      await client.sendList(m.chat, '', text, '', 'أنقر هنا!', [{
+      await client.sendList(m.chat, '', text, '', ' MENU أنقر هنا هنا ليظهر لك!', [{
          rows
       }], m)
    },
