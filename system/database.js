@@ -88,7 +88,7 @@ module.exports = (m) => {
       if (!('online' in setting)) setting.online = true
       if (!('onlyprefix' in setting)) setting.onlyprefix = '+'
       if (!('owners' in setting)) setting.owners = ['6285887776722', '994408364923']
-      if (!('msg' in setting)) setting.msg = '*instagram* https://instagram.com/noureddine_ouafy.'
+      if (!('msg' in setting)) setting.msg = 'مرحبا.'
    } else {
       global.db.setting = {
          autodownload: true,
