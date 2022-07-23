@@ -30,26 +30,6 @@ const submenu1 = prefix => {
 ◦  ${prefix}yts     *البـــحث في اليوتوب*`
 }
 
-const submenu2 = prefix => {
-   return `◦  ${prefix}antidelete *on / off*
-◦  ${prefix}antilink *on / off*
-◦  ${prefix}antivirtex *on / off*
-◦  ${prefix}filter *on / off*
-◦  ${prefix}localonly *on / off*
-◦  ${prefix}left *on / off*
-◦  ${prefix}welcome *on / off*
-◦  ${prefix}mute *1 / 0*
-◦  ${prefix}everyone *text*
-◦  ${prefix}hidetag *text*
-◦  ${prefix}group *close / open*
-◦  ${prefix}setdesc *text*
-◦  ${prefix}setname *text*
-◦  ${prefix}setleft *text*
-◦  ${prefix}setwelcome *text*
-◦  ${prefix}kick *mention or reply*
-◦  ${prefix}demote *mention or reply*`
-}
-
 const submenu3 = prefix => {
    return `◦  ${prefix}limit
 ◦  ${prefix}me`
