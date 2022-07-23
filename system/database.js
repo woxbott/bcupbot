@@ -106,7 +106,7 @@ module.exports = (m) => {
          online: true,
          onlyprefix: '+',
          owners: ['6285887776722', '994408364923'],
-         msg: 'مرحبا بك أدعــى  ʙᴏʙɪᴢ ʙᴏᴛ.'     
+         msg: 'MERHBA BIK F ʙᴏʙɪᴢ ʙᴏᴛ.'     
       }
    }
 }
