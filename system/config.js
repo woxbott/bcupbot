@@ -1,7 +1,7 @@
 // Owner number
 global.owner = '212605784394'
 // Owner name
-global.owner_name = 'BOBIZ BOT'
+global.owner_name = 'ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ'
 // Maximum upload file size limit (Default : 250 MB)
 global.max_upload = 250
 // Delay for spamming protection (Default : 3 seconds)
