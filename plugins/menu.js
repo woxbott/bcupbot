@@ -24,7 +24,7 @@ exports.run = {
       text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
       await client.sendList(m.chat, '', text, '', ' MENU أنقرهنا ليظهر لك!', [{
          rows
-      }], m)/
+      }], m)
    },
    error: false
 }
