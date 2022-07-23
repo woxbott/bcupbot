@@ -9,8 +9,6 @@ exports.run = {
          rowId: `${isPrefix}menutype 1`,
          description: `fb / youtube / tiktok / instagram ...`
       }, {
-       
-      }, {
          title: 'معلومات عن المستعمل',
          rowId: `${isPrefix}menutype 3`,
          description: ``
