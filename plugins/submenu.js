@@ -26,13 +26,13 @@ const submenu1 = prefix => {
 ◦  ${prefix}ig                  *التحميل من الانستغرام*
 ◦  ${prefix}mediafire           *التحميل من ميديافاير*
 ◦  ${prefix}play                *تحميل الاغانـــي*
-◦  ${prefix}tiktok    *(التحميل من تيكتوك  (الفيديو*
-◦  ${prefix}tikmp3    *(التحميل من تيكتوك (الموسيقى*
-◦  ${prefix}twitter             *التحميل من تويتر*
-◦  ${prefix}video           *تحميل فيديوات يوتوب*
-◦  ${prefix}ytmp3     *فيديوات يوتوب بصيغة موسيقى*
-◦  ${prefix}ytmp4      *فيديوات يوتوب بصيغة فيديو*
-◦  ${prefix}yts             *البـــحث في اليوتوب*`
+◦  ${prefix}tiktok     **
+◦  ${prefix}tikmp3     *TiTok   Link / رابط الفيديو*
+◦  ${prefix}twitter    *Twitter Link / رابط الفيديو*
+◦  ${prefix}video      *Youtube Link / رابط الفيديو*
+◦  ${prefix}ytmp3      *Youtube Link / رابط الفيديو*
+◦  ${prefix}ytmp4      *Youtube Link / رابط الفيديو*
+◦  ${prefix}yts        *Search on Youtube *`
 }
 
 const submenu3 = prefix => {
