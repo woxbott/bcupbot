@@ -18,7 +18,9 @@ exports.run = {
 
 const submenu1 = prefix => {
    return `
-   h
+   *╭────────────────────╮*
+            *ʙᴏʙɪᴢ ʙᴏᴛ*
+   *╰────────────────────╯*
    h
    h
    h
