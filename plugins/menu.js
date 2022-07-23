@@ -9,17 +9,9 @@ exports.run = {
          rowId: `${isPrefix}menutype 1`,
          description: `fb / youtube / tiktok / instagram ...`
       }, {
-         title: 'معلومات عن المستعمل',
-         rowId: `${isPrefix}menutype 3`,
-         description: ``
-      }, {
          title: 'قسم تحويل الملفات (ملصقات ..)',
          rowId: `${isPrefix}menutype 4`,
          description: `تحول الصور للملصقات مع عمل حقوق + تحويل الصور `
-      }, {
-         title: 'أوامر خاصة ب صاحب البوت',
-         rowId: `${isPrefix}menutype 5`,
-         description: ``
       }, {
          title: 'اوامر اضافية',
          rowId: `${isPrefix}menutype 6`,
