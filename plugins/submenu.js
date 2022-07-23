@@ -18,21 +18,23 @@ exports.run = {
 
 const submenu1 = prefix => {
    return `
-   هذه القائمة خاصة بالتحميل من كل هذا المواقع التي سوف تراها في الاسفل ما عليك الا ان تكتب الامر متبوع برابط الفيديو التي تود تحميله 
-
-
-
-◦  ${prefix}fb       *التحميل من الفيسبوك*
-◦  ${prefix}ig                  *التحميل من الانستغرام*
-◦  ${prefix}mediafire           *التحميل من ميديافاير*
-◦  ${prefix}play                *تحميل الاغانـــي*
-◦  ${prefix}tiktok     **
-◦  ${prefix}tikmp3  *TiTok Link / رابط الفيديو*
-◦  ${prefix}twitter *Twit  Link / رابط الفيديو*
-◦  ${prefix}video   *YT    Link / رابط الفيديو*
-◦  ${prefix}ytmp3   *YT    Link / رابط الفيديو*
-◦  ${prefix}ytmp4   *YT    Link / رابط الفيديو*
-◦  ${prefix}yts     *Search on Youtube *`
+   h
+   h
+   h
+   h
+   h
+   h
+◦  ${prefix}fb              *التحميل من الفيسبوك*
+◦  ${prefix}ig              *التحميل من الانستغرام*
+◦  ${prefix}mediafire       *التحميل من ميديافاير*
+◦  ${prefix}play            *تحميل الاغانـــي*
+◦  ${prefix}tiktok   	    *(التحميل من تيكتوك  (الفيديو*
+◦  ${prefix}tikmp3          *(التحميل من تيكتوك (الموسيقى*
+◦  ${prefix}twitter         *التحميل من تويتر*
+◦  ${prefix}video           *تحميل فيديوات يوتوب*
+◦  ${prefix}ytmp3           *فيديوات يوتوب بصيغة موسيقى*
+◦  ${prefix}ytmp4           *فيديوات يوتوب بصيغة فيديو*
+◦  ${prefix}yts              *البـــحث في اليوتوب*`
 }
 
 const submenu3 = prefix => {
@@ -41,14 +43,15 @@ const submenu3 = prefix => {
 }
 
 const submenu4 = prefix => {
-   return `◦  ${prefix}ava  *قم بالاشارة للرسالة*
+   return `
+◦  ${prefix}ava 	 *قم بالاشارة للرسالة*
 ◦  ${prefix}run
-◦  ${prefix}sticker  *تحويل صورة لملصق*
-◦  ${prefix}swm  *وضع حقوق على الملصق*
-◦  ${prefix}take  *وضع حقوق على الملصق*
-◦  ${prefix}toimg  *تحويل ملصق لصورة*
-◦  ${prefix}tomp3  *تحويل فيديو لموسيقى*
-◦  ${prefix}tovn *تحويل موسيقى او فيديو لـأوديـــو*`
+◦  ${prefix}sticker 	 *تحويل صورة لملصق*
+◦  ${prefix}swm 	 *وضع حقوق على الملصق*
+◦  ${prefix}take 	 *وضع حقوق على الملصق*
+◦  ${prefix}toimg  	 *تحويل ملصق لصورة*
+◦  ${prefix}tomp3 	 *تحويل فيديو لموسيقى*
+◦  ${prefix}tovn 	 *تحويل موسيقى او فيديو لـأوديـــو*`
 }
 
 const submenu5 = prefix => {
