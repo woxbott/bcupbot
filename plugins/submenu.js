@@ -19,10 +19,8 @@ exports.run = {
 const submenu1 = prefix => {
    return `◦  ${prefix}fb *link*
 ◦  ${prefix}ig *link*
-◦  ${prefix}mediafire *link*
-◦  ${prefix}play *query*
-◦  ${prefix}pin *link*
-◦  ${prefix}podcast *link*
+◦  ${prefix}mediafire *lien de la video*
+◦  ${prefix}play *le nom du music*
 ◦  ${prefix}tiktok *link*
 ◦  ${prefix}tikmp3 *link*
 ◦  ${prefix}tikwm *link*
