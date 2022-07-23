@@ -9,7 +9,7 @@ exports.run = {
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }, {
-         title: 'Group cmd',
+         title: 'المجموعات',
          rowId: `${isPrefix}menutype 2`,
          description: ``
       }, {
