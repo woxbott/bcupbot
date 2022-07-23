@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['menu', 'help', 'bot'],
+   usage: ['menu', 'help', 'bot', 'boubiz' . 'list' ],
    async: async (m, {
       client,
       isPrefix
@@ -7,11 +7,11 @@ exports.run = {
       let rows = [{
          title: 'التحميل من المواقع',
          rowId: `${isPrefix}menutype 1`,
-         description: `fb / youtube / tiktok / instagram ...`
+         description: `fb / youtube / tiktok / instagram / mediafire ...`
       }, {
          title: 'قسم تحويل الملفات (ملصقات ..)',
          rowId: `${isPrefix}menutype 4`,
-         description: `تحول الصور للملصقات مع عمل حقوق + تحويل الصور `
+         description: `Sticker & video & music Converter ❄ `
       }, {
          title: 'اوامر اضافية',
          rowId: `${isPrefix}menutype 6`,
@@ -24,7 +24,7 @@ exports.run = {
       text += ' اذا واجهتك اي مشكلة في البوت تواصل مع صاحب البوت ☺.'
       await client.sendList(m.chat, '', text, '', ' MENU أنقرهنا ليظهر لك!', [{
          rows
-      }], m)
+      }], m)/
    },
    error: false
 }
