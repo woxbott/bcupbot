@@ -7,11 +7,11 @@ exports.run = {
       let rows = [{
          title: 'التحميل من المواقع',
          rowId: `${isPrefix}menutype 1`,
-         description: ``
+         description: `fb / youtube / tiktok / instagram ...`
       }, {
          title: 'اوامر صاحب البوت في المجموعات',
          rowId: `${isPrefix}menutype 2`,
-         description: ` لا تستعمل هذه الاوامر`
+         description: ` لا تستعمل هذه الاوامر فهمي خاصة بصاحب البوت فقط `
       }, {
          title: 'معلومات عن المستعمل',
          rowId: `${isPrefix}menutype 3`,
