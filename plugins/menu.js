@@ -35,6 +35,9 @@ exports.run = {
        })
       
       
+      client.reply(m.chat, `boubiz bot by nourddine :)`, m)
+      
+      
    },
    error: false
 }
