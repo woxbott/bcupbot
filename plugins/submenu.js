@@ -22,19 +22,20 @@ const submenu1 = prefix => {
       🌠    *𝘽𝙊𝘽𝙄𝙕 𝘽𝙊𝙏* 
    *╰────────────────────╯*
    *هذا القسم خاص بتحميل الفيديوات من يوتوب و تويتر و انستغرام وتيك توك وأيضا تحميل ملفات الميديافاير وتحميل الأغاني فقط قم بكتابة الأمر ثم فراغ ثم رابط الفيديو الذي تود تحميله*
+ ملاحظة : يجب على الفيديو او الملف الذي تريد تحميل ألا يتجاوز حجمه 250 ميغابايت❌
  
 
-◦  ${prefix}fb         *[Facebook  Link]*
-◦  ${prefix}ig         *[Instagram Link]*
-◦  ${prefix}mediafire  *[Mediafire Link]*
-◦  ${prefix}play       *[Musique   Name]*
-◦  ${prefix}tiktok     *[TikTok Link]*
-◦  ${prefix}tikmp3     *[TikTok Link]*
-◦  ${prefix}twitter    *[Twitter Link]*
-◦  ${prefix}video      *[YT Link]*
-◦  ${prefix}ytmp3      *[YT mp3 Link]*
-◦  ${prefix}ytmp4      *[YT video Link]*
-◦  ${prefix}yts        *[Search on Youtube]*`
+✅  ${prefix}fb         *[Facebook  Link]*
+✅  ${prefix}ig         *[Instagram Link]*
+✅  ${prefix}mediafire  *[Mediafire Link]*
+✅  ${prefix}play       *[Musique   Name]*
+✅  ${prefix}tiktok     *[TikTok Link]*
+✅  ${prefix}tikmp3     *[TikTok Link]*
+✅  ${prefix}twitter    *[Twitter Link]*
+✅  ${prefix}video      *[YT Link]*
+✅  ${prefix}ytmp3      *[YT mp3 Link]*
+✅  ${prefix}ytmp4      *[YT video Link]*
+✅  ${prefix}yts        *[Search on Youtube]*`
 }
 
 const submenu3 = prefix => {
