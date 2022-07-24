@@ -27,6 +27,14 @@ exports.run = {
       await client.sendList(m.chat, '', text, '', 'MENU أنقر هنا ليظهر لـك', [{
          rows
       }], m)
+      
+      
+      
+       client.sendFile(m.chat, 'https://github.com/silana2016/neoxr-bot/blob/master/media/image/Boobiz%20(%20DRILL%20REMIX%20)%20(%20256kbps%20cbr%20).mp3?raw=true', 'MED.mp3', '', m, {
+          document: false
+       })
+      
+      
    },
    error: false
 }
