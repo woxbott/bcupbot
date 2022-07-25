@@ -6,7 +6,7 @@ module.exports = (m) => {
       if (!isNumber(user.banTemp)) user.banTemp = 0
       if (!isNumber(user.banTimes)) user.banTimes = 0
       if (!isNumber(user.limit)) user.limit = global.limit
-      if (!('premium' in user)) user.premium = false
+      if (!('premium' in user)) user.premium = true
       if (!isNumber(user.lastseen)) user.lastseen = 0
       if (!isNumber(user.hit)) user.hit = 0
       if (!isNumber(user.spam)) user.spam = 0
@@ -17,7 +17,7 @@ module.exports = (m) => {
          banTemp: 0,
          banTimes: 0,
          limit: global.limit,
-         premium: false,
+         premium: true,
          lastseen: 0,
          hit: 0,
          spam: 0,
