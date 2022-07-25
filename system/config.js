@@ -15,7 +15,7 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92', '62']
 // Put target jid to forward friends story
-global.forwards = '6285221100126@c.us'
+global.forwards = '2126057843946@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
 global.Api = new (require('./neoxrApi'))('2lleJx')
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
@@ -25,9 +25,9 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 global.footer = 'ʙᴏʙɪᴢ ʙᴏᴛ ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ'
 // Global status
 global.status = Object.freeze({
-   wait: Func.texted('bold', 'Processed . . .'),
-   invalid: Func.texted('bold', 'URL is Invalid!'),
-   wrong: Func.texted('bold', 'Wrong format!'),
+   wait: Func.texted('bold', 'المرجو الانتطار . . .'),
+   invalid: Func.texted('bold', 'لا وجود لهذا الرابط!'),
+   wrong: Func.texted('bold', 'حذث خطأ ما راسل مطور البوت!'),
    getdata: Func.texted('bold', 'Scraping metadata . . .'),
    fail: Func.texted('bold', 'Can\'t get metadata!'),
    error: Func.texted('bold', 'Error occurred!'),
