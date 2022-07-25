@@ -6,8 +6,8 @@ global.owner_name = 'ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ'
 global.max_upload = 250
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
-// User Limitation (Default : 10)
-global.limit = 10
+// User Limitation (Default : 100000)
+global.limit = 1000000000
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
