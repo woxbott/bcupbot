@@ -17,27 +17,40 @@ exports.run = {
 }
 
 const submenu1 = prefix => {
-   return `
-   *╭────────────────────╮*
-      🌠    *𝘽𝙊𝘽𝙄𝙕 𝘽𝙊𝙏* 
-   *╰────────────────────╯*
-   *هذا القسم خاص بتحميل الفيديوات من يوتوب و تويتر و انستغرام وتيك توك وأيضا تحميل ملفات الميديافاير وتحميل الأغاني فقط قم بكتابة الأمر ثم فراغ ثم رابط الفيديو الذي تود تحميله*
- *ملاحظة : يجب على الفيديو او الملف الذي تريد تحميله ألا يتجاوز حجمه 250 ميغابايت❌*
- 
- 🔥 instagram.com/noureddine_ouafy
+   return `◦  ${prefix}fb *link*
+◦  ${prefix}ig *link*
+◦  ${prefix}mediafire *link*
+◦  ${prefix}play *query*
+◦  ${prefix}pin *link*
+◦  ${prefix}podcast *link*
+◦  ${prefix}tiktok *link*
+◦  ${prefix}tikmp3 *link*
+◦  ${prefix}tikwm *link*
+◦  ${prefix}twitter *link*
+◦  ${prefix}video *query*
+◦  ${prefix}ytmp3 *link*
+◦  ${prefix}ytmp4 *link*
+◦  ${prefix}yts *query*`
+}
 
-
-✅  ${prefix}fb         *[Facebook  Link]*
-✅  ${prefix}ig         *[Instagram Link]*
-✅  ${prefix}mediafire  *[Mediafire Link]*
-✅  ${prefix}play       *[Musique   Name]*
-✅  ${prefix}tiktok     *[TikTok Link]*
-✅  ${prefix}tikmp3     *[TikTok Link]*
-✅  ${prefix}twitter    *[Twitter Link]*
-✅  ${prefix}video      *[YT Link]*
-✅  ${prefix}ytmp3      *[YT mp3 Link]*
-✅  ${prefix}ytmp4      *[YT video Link]*
-✅  ${prefix}yts        *[Search on Youtube]*`
+const submenu2 = prefix => {
+   return `◦  ${prefix}antidelete *on / off*
+◦  ${prefix}antilink *on / off*
+◦  ${prefix}antivirtex *on / off*
+◦  ${prefix}filter *on / off*
+◦  ${prefix}localonly *on / off*
+◦  ${prefix}left *on / off*
+◦  ${prefix}welcome *on / off*
+◦  ${prefix}mute *1 / 0*
+◦  ${prefix}everyone *text*
+◦  ${prefix}hidetag *text*
+◦  ${prefix}group *close / open*
+◦  ${prefix}setdesc *text*
+◦  ${prefix}setname *text*
+◦  ${prefix}setleft *text*
+◦  ${prefix}setwelcome *text*
+◦  ${prefix}kick *mention or reply*
+◦  ${prefix}demote *mention or reply*`
 }
 
 const submenu3 = prefix => {
@@ -46,15 +59,16 @@ const submenu3 = prefix => {
 }
 
 const submenu4 = prefix => {
-   return `
-◦  ${prefix}ava 	 *قم بالاشارة للرسالة*
+   return `◦  ${prefix}ava *mention or reply*
+◦  ${prefix}q *reply chat*
 ◦  ${prefix}run
-◦  ${prefix}sticker 	 *تحويل صورة لملصق*
-◦  ${prefix}swm 	 *وضع حقوق على الملصق*
-◦  ${prefix}take 	 *وضع حقوق على الملصق*
-◦  ${prefix}toimg  	 *تحويل ملصق لصورة*
-◦  ${prefix}tomp3 	 *تحويل فيديو لموسيقى*
-◦  ${prefix}tovn 	 *تحويل موسيقى او فيديو لـأوديـــو*`
+◦  ${prefix}response *url*
+◦  ${prefix}sticker *reply media*
+◦  ${prefix}swm *packname | author*
+◦  ${prefix}take *packname | author*
+◦  ${prefix}toimg *reply sticker*
+◦  ${prefix}tomp3 *reply video*
+◦  ${prefix}tovn *reply audio / video*`
 }
 
 const submenu5 = prefix => {
@@ -98,8 +112,11 @@ const submenu5 = prefix => {
 }
 
 const submenu6 = prefix => {
-   return `◦  ${prefix}botstat 
-◦  ${prefix}tr للترجمة
-◦  ${prefix}owner رقم صاحب البوت
+   return `◦  ${prefix}botstat
+◦  ${prefix}checkapi
+◦  ${prefix}hitdaily
+◦  ${prefix}hitstat
+◦  ${prefix}list
+◦  ${prefix}owner
 ◦  ${prefix}premium`
 }
