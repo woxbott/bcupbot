@@ -20,6 +20,7 @@ const submenu1 = prefix => {
    return `◦  ${prefix}fb *link*
 ◦  ${prefix}ig *link*
 ◦  ${prefix}mediafire *link*
+◦  ${prefix}apkgoogle *apk name*
 ◦  ${prefix}play *query*
 ◦  ${prefix}pin *link*
 ◦  ${prefix}podcast *link*
@@ -59,13 +60,16 @@ const submenu3 = prefix => {
 }
 
 const submenu4 = prefix => {
-   return `◦  ${prefix}ava *mention or reply*
+   return `
+◦  ${prefix}alloschool
+◦  ${prefix}pdfdrive *book name*
+◦  ${prefix}devbook *kotob barmaja*
+◦  ${prefix}ava *mention or reply*
 ◦  ${prefix}q *reply chat*
 ◦  ${prefix}run
+◦  ${prefix}tr *trjama*
 ◦  ${prefix}response *url*
 ◦  ${prefix}sticker *reply media*
-◦  ${prefix}swm *packname | author*
-◦  ${prefix}take *packname | author*
 ◦  ${prefix}toimg *reply sticker*
 ◦  ${prefix}tomp3 *reply video*
 ◦  ${prefix}tovn *reply audio / video*`
