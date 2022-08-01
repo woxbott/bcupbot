@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['menu','mo3jam','quote','oxford','apkgoogle','apkgoogledl'],
+   usage: ['menu','mo3jam','apkgoogle','apkgoogledl'],
    async: async (m, {
       client,
       text,
