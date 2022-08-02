@@ -23,7 +23,7 @@ exports.run = {
                   
                   
                   let rows = [] 
-               json.data[].name.map((v, i) => rows.push({
+               json.data[0].name.map((v, i) => rows.push({
                    title: '📁 ' + v,
                    rowId: `${isPrefix}rexdl2 ` + json.data[i].url,
                    description:  json.data[i].desc
