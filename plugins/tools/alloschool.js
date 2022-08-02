@@ -86,7 +86,7 @@ exports.run = {
    error: false,
    private: false,
    limit: true,
-   group: false,
+group: true,
    cache: true,
    location: __filename
 }
