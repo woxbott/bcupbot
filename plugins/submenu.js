@@ -16,6 +16,7 @@ const submenu1 = prefix => {
 ◦  ${prefix}ig *link*
 ◦  ${prefix}mediafire *link*
 ◦  ${prefix}apkgoogle *apk name*
+◦  ${prefix}apk *apk name*
 ◦  ${prefix}play *query*
 ◦  ${prefix}pin *link*
 ◦  ${prefix}podcast *link*
