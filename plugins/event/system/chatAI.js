@@ -1,4 +1,5 @@
 exports.run = {
+    usage: ['hello', 'hello'],
    async: async (m, {
       client,
       body,
