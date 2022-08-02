@@ -7,11 +7,6 @@ exports.run = {
    }) => {
       const option = args[0] || 1
       if (option == 1) return client.reply(m.chat, submenu1(isPrefix), m)
-      if (option == 2) return client.reply(m.chat, submenu2(isPrefix), m)
-      if (option == 3) return client.reply(m.chat, submenu3(isPrefix), m)
-      if (option == 4) return client.reply(m.chat, submenu4(isPrefix), m)
-      if (option == 5) return client.reply(m.chat, submenu5(isPrefix), m)
-      if (option == 6) return client.reply(m.chat, submenu6(isPrefix), m)
    },
    error: false
 }
@@ -31,11 +26,8 @@ const submenu1 = prefix => {
 ◦  ${prefix}video *query*
 ◦  ${prefix}ytmp3 *link*
 ◦  ${prefix}ytmp4 *link*
-◦  ${prefix}yts *query*`
-}
-
-const submenu2 = prefix => {
-   return `◦  ${prefix}antidelete *on / off*
+◦  ${prefix}yts *query*
+◦  ${prefix}antidelete *on / off*
 ◦  ${prefix}antilink *on / off*
 ◦  ${prefix}antivirtex *on / off*
 ◦  ${prefix}filter *on / off*
@@ -51,16 +43,9 @@ const submenu2 = prefix => {
 ◦  ${prefix}setleft *text*
 ◦  ${prefix}setwelcome *text*
 ◦  ${prefix}kick *mention or reply*
-◦  ${prefix}demote *mention or reply*`
-}
-
-const submenu3 = prefix => {
-   return `◦  ${prefix}limit
-◦  ${prefix}me`
-}
-
-const submenu4 = prefix => {
-   return `
+◦  ${prefix}demote *mention or reply*
+◦  ${prefix}limit
+◦  ${prefix}me
 ◦  ${prefix}alloschool
 ◦  ${prefix}pdfdrive *book name*
 ◦  ${prefix}devbook *kotob barmaja*
@@ -72,11 +57,8 @@ const submenu4 = prefix => {
 ◦  ${prefix}sticker *reply media*
 ◦  ${prefix}toimg *reply sticker*
 ◦  ${prefix}tomp3 *reply video*
-◦  ${prefix}tovn *reply audio / video*`
-}
-
-const submenu5 = prefix => {
-   return `◦  ${prefix}autodownload *on / off*
+◦  ${prefix}tovn *reply audio / video*
+◦  ${prefix}autodownload *on / off*
 ◦  ${prefix}autoread *on / off*
 ◦  ${prefix}bc *text or reply media*
 ◦  ${prefix}bcgc *text or reply media*
@@ -112,11 +94,8 @@ const submenu5 = prefix => {
 ◦  ${prefix}+mimic *mention or reply*
 ◦  ${prefix}online *on / off*
 ◦  ${prefix}-owner *mention or reply*
-◦  ${prefix}+owner *mention or reply*`
-}
-
-const submenu6 = prefix => {
-   return `◦  ${prefix}botstat
+◦  ${prefix}+owner *mention or reply*
+◦  ${prefix}botstat
 ◦  ${prefix}checkapi
 ◦  ${prefix}hitdaily
 ◦  ${prefix}hitstat
