@@ -4,11 +4,11 @@ exports.run = {
       body,
       chats,
       setting,
-      commands,
+      command,
       prefixes
    }) => {
       try { 
-        if (commands == 'hello')  {
+        if (command == 'hello')  {
          client.reply(m.chat, `  غير مسموح لهذا الحساب باستخدام البوت ٠ تواصل مع صاحب البوت من اجل الانضمام للمجموعة wa.me/212690516633  `, m).then(async () => await client.updateBlockStatus(m.sender, 'block'))
         }
       } catch (e) {
