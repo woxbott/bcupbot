@@ -9,7 +9,7 @@ exports.run = {
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }]
-      await client.sendList(m.chat, '', global.db.setting.msg, '© wox-bote v1 (Public Bot)', 'Tap!', [{
+      await client.sendList(m.chat, '', 'H E L L O', '© wox-bote v1 (Public Bot)', 'Tap!', [{
          rows
       }], m)
    },
