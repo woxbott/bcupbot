@@ -15,8 +15,8 @@ const submenu1 = prefix => {
    return `◦  ${prefix}fb *link*
 ◦  ${prefix}ig *link*
 ◦  ${prefix}mediafire *link*
-◦  ${prefix}apkgoogle *apk name*
-◦  ${prefix}apk *apk name*
+◦  ${prefix}apkgoogle *✴️ apk name*
+◦  ${prefix}apk *✴️ apk name*
 ◦  ${prefix}play *query*
 ◦  ${prefix}pin *link*
 ◦  ${prefix}podcast *link*
@@ -47,13 +47,13 @@ const submenu1 = prefix => {
 ◦  ${prefix}demote *mention or reply*
 ◦  ${prefix}limit
 ◦  ${prefix}me
-◦  ${prefix}alloschool
-◦  ${prefix}pdfdrive *book name*
-◦  ${prefix}devbook *kotob barmaja*
+◦  ${prefix}alloschool ✴️
+◦  ${prefix}pdfdrive *✴️ book name*
+◦  ${prefix}devbook *✴️ kotob barmaja*
 ◦  ${prefix}ava *mention or reply*
 ◦  ${prefix}q *reply chat*
 ◦  ${prefix}run
-◦  ${prefix}tr *trjama*
+◦  ${prefix}tr *✴️ trjama*
 ◦  ${prefix}response *url*
 ◦  ${prefix}sticker *reply media*
 ◦  ${prefix}toimg *reply sticker*
