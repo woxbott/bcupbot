@@ -31,12 +31,12 @@ exports.run = {
          let chSize = Func.sizeLimit(filesizeF, global.max_upload)
          if (chSize.oversize) return client.reply(m.chat, `💀 File size (${filesizeF}) exceeds the maximum limit, downleoad it by yourself via this link : ${await (await scrap.shorten(dl_link)).data.url}`, m)
          client.sendMessageModify(m.chat, caption, m, {
-            title: '© wox-bote v1 (Public Bot)',
+            title: '© wox-bot v1 (Public Bot)',
             largeThumb: true,
             thumbnail: await Func.fetchBuffer(thumb)
          }).then(() => {
             client.sendFile(m.chat, dl_link, decode(title) + '.mp3', '', m, {
-               document: false
+               ptt: true
             })
          })
       } catch (e) {
