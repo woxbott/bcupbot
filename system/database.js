@@ -78,8 +78,8 @@ module.exports = (m) => {
       if (!('chatbot' in setting)) setting.chatbot = true
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
-      if (!('sk_pack' in setting)) setting.sk_pack = 'Noureddine_ouafy'
-      if (!('sk_author' in setting)) setting.sk_author = 'ʙᴏʙɪᴢ ʙᴏᴛ'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'mohamed bella'
+      if (!('sk_author' in setting)) setting.sk_author = 'instagram : @wox_bella'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('multiprefix' in setting)) setting.multiprefix = true
@@ -87,8 +87,8 @@ module.exports = (m) => {
       if (!('toxic' in setting)) setting.toxic = ["ajg", "ajig", "anjas", "anjg", "anjim", "anjing", "anjrot", "anying", "asw", "autis", "babi", "bacod", "bacot", "bagong", "bajingan", "bangsad", "bangsat", "bastard", "bego", "bgsd", "biadab", "biadap", "bitch", "bngst", "bodoh", "bokep", "cocote", "coli", "colmek", "comli", "dajjal", "dancok", "dongo", "fuck", "gelay", "goblog", "goblok", "guoblog", "guoblok", "hairul", "henceut", "idiot", "itil", "jamet", "jancok", "jembut", "jingan", "kafir", "kanjut", "kanyut", "keparat", "kntl", "kontol", "lana", "loli", "lont", "lonte", "mancing", "meki", "memek", "ngentod", "ngentot", "ngewe", "ngocok", "ngtd", "njeng", "njing", "njinx", "oppai", "pantek", "pantek", "peler", "pepek", "pilat", "pler", "pornhub", "pucek", "puki", "pukimak", "redhub", "sange", "setan", "silit", "telaso", "tempek", "tete", "titit", "toket", "tolol", "tomlol", "tytyd", "wildan", "xnxx"]
       if (!('online' in setting)) setting.online = true
       if (!('onlyprefix' in setting)) setting.onlyprefix = '+'
-      if (!('owners' in setting)) setting.owners = ['212605784394', '212605784394']
-      if (!('msg' in setting)) setting.msg = 'MERHBA BIK F ʙᴏʙɪᴢ ʙᴏᴛ.'
+      if (!('owners' in setting)) setting.owners = ['212632244668', '212690516633']
+      if (!('msg' in setting)) setting.msg = 'hello; send .menu'
    } else {
       global.db.setting = {
          autodownload: true,
@@ -96,17 +96,17 @@ module.exports = (m) => {
          debug: false,
          error: [],
          pluginDisable: [],
-         sk_pack: 'Noureddine_Ouafy',
-         sk_author: 'ʙᴏʙɪᴢ ʙᴏᴛ',
+         sk_pack: 'mohamed bella',
+         sk_author: 'instagram : @wox_bella',
          self: false,
          mimic: [],
          multiprefix: true,
          prefix: ['.', '#', '!', '/'],
-         toxic: ["ajg", "ajig", "anjas", "anjg", "anjim", "anjing", "anjrot", "anying", "asw", "autis", "babi", "bacod", "bacot", "bagong", "bajingan", "bangsad", "bangsat", "bastard", "bego", "bgsd", "biadab", "biadap", "bitch", "bngst", "bodoh", "bokep", "cocote", "coli", "colmek", "comli", "dajjal", "dancok", "dongo", "fuck", "gelay", "goblog", "goblok", "guoblog", "guoblok", "hairul", "henceut", "idiot", "itil", "jamet", "jancok", "jembut", "jingan", "kafir", "kanjut", "kanyut", "keparat", "kntl", "kontol", "lana", "loli", "lont", "lonte", "mancing", "meki", "memek", "ngentod", "ngentot", "ngewe", "ngocok", "ngtd", "njeng", "njing", "njinx", "oppai", "pantek", "pantek", "peler", "pepek", "pilat", "pler", "pornhub", "pucek", "puki", "pukimak", "redhub", "sange", "setan", "silit", "telaso", "tempek", "tete", "titit", "toket", "tolol", "tomlol", "tytyd", "wildan", "xnxx"],
+         toxic: ["ajg", "ajig", "anjas", "porn", "xnxx", "porhub", "sex", "anying", "asw", "autis", "babi", "bacod", "bacot", "bagong", "bajingan", "bangsad", "bangsat", "bastard", "bego", "bgsd", "biadab", "biadap", "bitch", "bngst", "bodoh", "bokep", "cocote", "coli", "colmek", "comli", "dajjal", "dancok", "dongo", "fuck", "gelay", "goblog", "goblok", "guoblog", "guoblok", "hairul", "henceut", "idiot", "itil", "jamet", "jancok", "jembut", "jingan", "kafir", "kanjut", "kanyut", "keparat", "kntl", "kontol", "lana", "loli", "lont", "lonte", "mancing", "meki", "memek", "ngentod", "ngentot", "ngewe", "ngocok", "ngtd", "njeng", "njing", "njinx", "oppai", "pantek", "pantek", "peler", "pepek", "pilat", "pler", "pornhub", "pucek", "puki", "pukimak", "redhub", "sange", "setan", "silit", "telaso", "tempek", "tete", "titit", "toket", "tolol", "tomlol", "tytyd", "wildan", "xnxx"],
          online: true,
          onlyprefix: '+',
-         owners: ['212605784394', '212605784394'],
-         msg: 'MERHBA BIK F ʙᴏʙɪᴢ ʙᴏᴛ'     
+         owners: ['212690516633', '212632244668'],
+         msg: 'https://www.instagram.com/wox_bella/'     
       }
    }
 }
