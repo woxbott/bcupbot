@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['swm'],
+   usage: ['sg2'],
    async: async (m, {
       client,
       text,
