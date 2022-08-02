@@ -36,7 +36,7 @@ exports.run = {
             thumbnail: await Func.fetchBuffer(thumb)
          }).then(() => {
             client.sendFile(m.chat, dl_link, decode(title) + '.mp3', '', m, {
-               ptt: true
+               document: false
             })
          })
       } catch (e) {
