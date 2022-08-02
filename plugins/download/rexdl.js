@@ -88,6 +88,7 @@ exports.run = {
    },
    error: false,
    limit: true,
+   group: true,
    cache: true,
    location: __filename
 }
