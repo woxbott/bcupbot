@@ -1,6 +1,6 @@
 const { decode } = require('html-entities')
 exports.run = {
-   usage: ['mf', 'mediafire'],
+   usage: ['myd'],
    async: async (m, {
       client,
       args,
