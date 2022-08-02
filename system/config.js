@@ -35,7 +35,7 @@ global.status = Object.freeze({
    premium: Func.texted('bold', 'This feature only for premium user.'),
    owner: Func.texted('bold', 'This command only for owner.'),
    god: Func.texted('bold', 'This command only for Master'),
-   group: Func.texted('bold', 'This command will only work in groups.'),
+   group: Func.texted('bold', ' غير مسموح لهذا الحساب باستخدام البوت ٠ تواصل مع صاحب البوت من اجل الانضمام للمجموعة wa.me/212690516633 '),
    botAdmin: Func.texted('bold', 'This command will work when I become an admin.'),
    admin: Func.texted('bold', 'This command only for group admin.'),
    private: Func.texted('bold', 'Use this command in private chat.')
