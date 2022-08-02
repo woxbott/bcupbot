@@ -15,13 +15,26 @@ exports.run = {
          
          
          
-if (command == 'apk') {
+               if (command == 'apk') {
                   client.sendReact(m.chat, '🕒', m.key)
                   let json = await Api.rexdlsearch(args)
                   let json2 = await Api.rexdl2(args)
                   if (!json.status) return client.reply(m.chat, Func.jsonFormat(json), m)
-   
-                  let rows = [
+                  
+                  
+                  let rows = [] 
+               json.data[].name.map((v, i) => rows.push({
+                   title: '📁 ' + v,
+                   rowId: `${isPrefix}rexdl2 ` + json.data[i].url,
+                   description:  json.data[i].desc
+               }))              
+                  
+                  
+               await client.sendList(m.chat, '', `乂   R E X D L \n\n`, '', 'Tap!', [{
+                  rows
+               }], m)
+                  
+               /*   let rows = [
                       {
                         title: json.data[0].name,
                         rowId: `${isPrefix}rexdl2 ` + json.data[0].url,
@@ -56,7 +69,7 @@ if (command == 'apk') {
                      
                      await client.sendList(m.chat, '', `乂  *R E X D L*\n\n`, '', 'Tap!', [{
                         rows
-                     }], m)
+                     }], m)*/
 
                   
                   
