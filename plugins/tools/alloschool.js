@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['pdf', 'course', 'section','element','gdrive1','category2','bella','start'],
+   usage: ['pdf', 'course', 'section','element','gdrive1','category2','bella','alloschool'],
    async: async (m, {
       client,
       text,
@@ -8,7 +8,7 @@ exports.run = {
       command
    }) => {  
       // getcategory 
-      if (command == 'bella' || command == 'start') {
+      if (command == 'alloschool' || command == 'alloschool') {
        client.reply(m.chat, `Tips : لا تستعمل واتساب معدل \n\n`, m)
       // if (!text) return client.reply(m.chat,'no text', m)
       let json = await scrap.getcategory()
